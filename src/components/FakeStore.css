@@ -1,0 +1,20 @@
+.card-header {
+    height: 140px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card:nth-child(odd) {
+    background-color: lightskyblue;
+}
+
+.card:nth-child(even) {
+    background-color: lightgray;
+}
+
+main {
+    height: 700px;
+    overflow: auto;
+}

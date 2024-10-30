@@ -1,0 +1,66 @@
+.container {
+    height: auto;
+    position: relative;
+
+}
+
+.section1,
+.section2,
+.section3 {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.section1 {
+    background-image: url('../images/section1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.section2 {
+    background-image: url('../images/section2.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.section3 {
+    background-image: url('../images/section3.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.about,
+.projects {
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}

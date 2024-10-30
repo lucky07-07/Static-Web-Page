@@ -1,0 +1,16 @@
+<script>
+    class register {
+        name = "samsung";
+        rating = {
+            rate: {
+                count: 300,
+                value: 4.2
+            }
+        }
+        get ratevalue() {
+            return this.rating.rate.value;
+        }
+    }
+    let obj = new register();
+    document.write("rate value:" + obj.ratevalue);
+</script>
